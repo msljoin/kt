@@ -1,8 +1,8 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
-    val name: String = "Se"
+fun main() {
 
-    val address = Address()
-    address.num = 3
-    println(address.num)
+    val address = Address(
+            "wweqwewq"
+    )
+    println(address.toString())
+
 }

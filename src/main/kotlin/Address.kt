@@ -1,10 +1,8 @@
-//class Address(val town: String, val street: String, val number: Int ) {
-//
-//}
-//if (::str.isInitialized)
-class Address
-{
-    var str: String? = null
-    var num: Int? = null
+class Address(mac: String?) {
+    private var number = 0
+    private var str: String? = null
 
+    override fun toString(): String {
+        return "Address(number=$number, str=$str)"
+    }
 }
