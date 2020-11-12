@@ -1,2 +1,1 @@
-# kt
-Default project for learning Kotlin basics.
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
